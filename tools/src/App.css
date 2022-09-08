@@ -1,0 +1,15 @@
+/* nav{
+  background-color: rgb(30, 182, 106);
+  min-height: 90px;
+  box-shadow: 0 10px 15px rgba(78, 90,0);
+} */
+
+body{
+  background: rgb(189, 192, 192)
+}
+
+nav{
+  box-shadow: 0 10px 15px rgba(78, 90,0);
+
+}
+

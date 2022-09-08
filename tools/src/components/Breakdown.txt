@@ -1,0 +1,4 @@
+home page consisting of{
+    warm welcome
+    what its about
+}
