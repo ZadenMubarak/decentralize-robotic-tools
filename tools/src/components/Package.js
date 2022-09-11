@@ -6,7 +6,7 @@ Package for humanoid-like robots
 includes movements a...
 `
 
-const Packagelist = () => {
+const Package = () => {
     return (
         <div>
           <Card title='humanoid' header={info1}/>
@@ -30,22 +30,4 @@ function Card(props){
   )
 }
 
-function Humanoid(){
-  return(
-    <div></div>
-  )
-}
-
-function Airbots(){
-  return(
-    <div></div>
-  )
-}
-
-function Drive(){
-  return(
-    <div></div>
-  )
-}
-
-export default Packagelist
+export default Package

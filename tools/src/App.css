@@ -1,15 +1,71 @@
-/* nav{
-  background-color: rgb(30, 182, 106);
-  min-height: 90px;
-  box-shadow: 0 10px 15px rgba(78, 90,0);
-} */
-
-body{
-  background: rgb(189, 192, 192)
-}
-
 nav{
-  box-shadow: 0 10px 15px rgba(78, 90,0);
+  min-height: 70px;
+  background-color: rgb(117, 119, 116);
+  width: 100%;
+}
+
+.home{
+  position: absolute;
+  top: 0%;
+  color: rgb(0, 0, 0);
 
 }
 
+.lnk{
+  color: aqua;
+}
+
+.abo{
+  position: absolute;
+  top: 0%;
+  left: 120px;
+  
+}
+
+.prof{
+  position: absolute;
+  top: 0%;
+  left: 180px;
+}
+
+.go {
+  position: absolute;
+  left: 42%;
+  top: 240px;
+  align-items: center;
+  background: #a8a8aa;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: -10px -10px 30px 0 #fff,10px 10px 30px 0 #c0e92e17;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: flex;
+  font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;
+  font-size: 1rem;
+  justify-content: center;
+  line-height: 1.5rem;
+  padding: 15px;
+  position: relative;
+  text-align: left;
+  transition: .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: pre;
+  width: max-content;
+  word-break: normal;
+  word-spacing: normal;
+}
+
+.go:hover {
+  background: #f8f8ff;
+  box-shadow: -15px 15px 30px 0 rgb(255, 253, 253), 15px 15px 30px 0 #1d0dca17;
+}
+
+@media (min-width: 768px) {
+  .go {
+    padding: 24px;
+  }
+}
+        
