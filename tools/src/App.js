@@ -34,7 +34,7 @@ function App() {
         <Route path="*" element={<ErrorPage />} />
       </Routes>
       <div> Foooter </div>
-      <button onClick={() => {<Navigate to='/packages' replace={true}/>}} className='go'>get going</button>
+      {/* <button onClick={() => {<Navigate to='/packages' replace={true}/>}} className='go'><Link to='/packages' className="getgo">get going</Link></button> */}
     </Router>
   );
 }

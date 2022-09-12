@@ -3,14 +3,31 @@ import './Package.css'
 
 let info1 = `
 Package for humanoid-like robots
-includes movements a...
+includes movements , vision
+navigationn and more
+
+
+
+view full package
+`
+
+let avian = `
+
+Package for aviation related bots
+
+such as drones, satelites,
+self flying planes
+
+includes takeoff abilities
+
+view full package 
 `
 
 const Package = () => {
     return (
         <div>
           <Card title='humanoid' header={info1}/>
-          <span><Card title='air bots'/></span>
+          <span><Card title='Aviation' header={avian}/></span>
           
           
         </div>
@@ -22,7 +39,7 @@ function Card(props){
     <div className='head' onClick={() => {alert('heyy')}}>
       <h3>{props.title}</h3>
 
-      <h5>{props.header}</h5>
+      <h4>{props.header}</h4>
 
       <button>explore</button>
 
