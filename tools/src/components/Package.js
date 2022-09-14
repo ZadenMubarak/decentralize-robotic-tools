@@ -21,13 +21,29 @@ self flying planes
 includes takeoff abilities
 
 view full package 
+
+`
+
+let motor = `
+\n\n
+
+Package for motor related bots
+package incudes obstacle detection,
+movements gps abilitied
+and more
+
+view package
+\n
+
 `
 
 const Package = () => {
     return (
         <div>
-          <Card title='humanoid' header={info1}/>
-          <span><Card title='Aviation' header={avian}/></span>
+          
+          <span className='human'><Card title='humanoid' header={info1}/></span>
+          <span className='span'><Card title='Aviation' header={avian}/></span>
+          <span className='motors'> <Card title="Motor related" header={motor}/></span>
           
           
         </div>
@@ -37,9 +53,11 @@ const Package = () => {
 function Card(props){
   return(
     <div className='head' onClick={() => {alert('heyy')}}>
-      <h3>{props.title}</h3>
+      <h2>{props.title}</h2><br/>
+      <br/><br/>
 
-      <h4>{props.header}</h4>
+      <h3>{props.header}</h3>
+      <br/><br/>
 
       <button>explore</button>
 

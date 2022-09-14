@@ -6,6 +6,7 @@ import Profile from './components/Profile'
 import About from './components/About'
 import ErrorPage from './components/ErrorPage'
 import Package from './components/Package'
+import Droid from "./components/pack/droid";
 
 
 function App() {
@@ -30,10 +31,11 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/packages" element={<Package/>}/>
+        <Route path="/humanoid-pack" element={<Droid />}/>
         <Route path="/profile/:username" element={<Profile />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
-      <div> Foooter </div>
+      
       {/* <button onClick={() => {<Navigate to='/packages' replace={true}/>}} className='go'><Link to='/packages' className="getgo">get going</Link></button> */}
     </Router>
   );
