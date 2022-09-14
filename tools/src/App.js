@@ -14,6 +14,7 @@ function App() {
   return (
     <Router>
       <nav >
+      <Link to="/"  className="home-btn"><span className="droidspan">file/droid</span></Link>
         
         <ul>
           <span className="home"><li><Link to="/" className="lnk"> Home</Link></li></span>
@@ -21,7 +22,7 @@ function App() {
         <span className="abo"><li><Link to="/about" className="lnk">  About </Link></li></span>
         
         <span className="prof"><li><Link to="/profile" className="lnk">Profile </Link></li></span>
-        <Link to='/packages'>packages</Link>
+        <Link to='/packages' className="packs">packages</Link>
         
         </ul>
         
