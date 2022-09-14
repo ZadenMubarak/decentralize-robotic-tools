@@ -7,10 +7,6 @@ body{
     background-color: #7b7b7c;
 }
 
-img{
-    width: 100%;
-    height: 100%;
-}
 
 .head{
     position: absolute;
@@ -52,6 +48,6 @@ img{
 
 .motors{
     position: absolute;
-    top: 80px;
+    top: 10%;
     left: 800px;
 }

@@ -14,7 +14,7 @@ function App() {
   return (
     <Router>
       <nav >
-      <Link to="/"  className="home-btn"><span className="droidspan">file/droid</span></Link>
+      <Link to="/"  className="home-btn"><span className="droidspan">filedroid</span></Link>
         
         <ul>
           <span className="home"><li><Link to="/" className="lnk"> Home</Link></li></span>

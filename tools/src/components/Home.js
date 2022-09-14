@@ -9,7 +9,7 @@ const Home = () => {
     <div>
       <div className='card1'>
           <h3>Explore</h3>
-          <div className='go'><Link to='/packages' >Get going {arrr}</Link> </div>
+          <div className='go'><Link to='/packages' className='clickpack'>Get going {arrr}</Link> </div>
           <h1>Open source tools for machine Learning</h1>
 
       </div>

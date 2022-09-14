@@ -6,15 +6,20 @@ nav{
 
 .droidspan{
   position: relative;
-  color: rgb(255, 127, 206);
-  font-size: 25px;
-  top: 12px;
+  color: rgb(82, 102, 101);
+  font-size: 27px;
 
+
+}
+
+.home-btn{
+  position: absolute;
+  top: 3%;
 }
 
 .home{
   position: absolute;
-  top: 0%;
+  top: 5%;
   left: 500px;
   color: rgb(0, 0, 0);
 
@@ -26,20 +31,20 @@ nav{
 
 .abo{
   position: absolute;
-  top: 0%;
+  top: 5%;
   left: 560px;
   
 }
 
 .prof{
   position: absolute;
-  top: 0%;
+  top: 5%;
   left: 630px;
 }
 
 .packs{
   position: absolute;
-  top: 0%;
+  top: 5%;
   left: 700px;
   color: aqua;
 }
