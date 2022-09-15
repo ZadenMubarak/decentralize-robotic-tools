@@ -60,6 +60,13 @@ body{
 }
 
 
+.direct2{
+    font-size: 25px;
+    position: absolute;
+    color: cadetblue;
+    top: 320px;
+}
+
 .pack1{
     position: absolute;
     top: 323px;

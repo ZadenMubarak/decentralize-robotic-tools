@@ -48,7 +48,11 @@ const Package = () => {
             <Card title='humanoid' header={info1} />
             <Link to='/humanoid-pack' className='direct1'> {see} </Link> <h3 className='pack1'>pack</h3>
           </span>
-          <span className='span'><Card title='Aviation' header={avian}/></span>
+          <span className='span'>
+            <Card title='Aviation' header={avian}/>
+            <Link className='direct2' to='/aviation-pack'>see</Link>
+            <h3 className='pack1'>pack</h3>
+            </span>
           <span className='motors'> <Card title="Motor related" header={motor}/></span>
           
           
