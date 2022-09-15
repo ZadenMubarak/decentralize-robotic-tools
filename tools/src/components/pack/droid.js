@@ -8,6 +8,10 @@ const Droid = () => {
         <h1>
             humanoid Package
         </h1>
+
+        preview-param
+        <br/>
+        buy-parm
     </div>
   )
 }
