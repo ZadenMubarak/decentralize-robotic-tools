@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link } from 'react-router-dom'
 import './Package.css'
 
 let info1 = `
@@ -37,11 +38,16 @@ view package
 
 `
 
+let see ="see"
+
 const Package = () => {
     return (
         <div>
           
-          <span className='human'><Card title='humanoid' header={info1}/></span>
+          <span className='human'>
+            <Card title='humanoid' header={info1} />
+            <Link to='/humanoid-pack' className='direct1'> {see} </Link> <h3 className='pack1'>pack</h3>
+          </span>
           <span className='span'><Card title='Aviation' header={avian}/></span>
           <span className='motors'> <Card title="Motor related" header={motor}/></span>
           
@@ -52,16 +58,17 @@ const Package = () => {
 
 function Card(props){
   return(
-    <div className='head' onClick={() => {alert('heyy')}}>
+    
+      <div className='head' onClick={() => {alert('heyy')}}>
       <h2>{props.title}</h2><br/>
       <br/><br/>
 
       <h3>{props.header}</h3>
       <br/><br/>
 
-      <button>explore</button>
-
     </div>
+   
+
   )
 }
 

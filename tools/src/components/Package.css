@@ -51,3 +51,18 @@ body{
     top: 10%;
     left: 800px;
 }
+
+.direct1{
+    font-size: 25px;
+    position: absolute;
+    color: cadetblue;
+    top: 320px;
+}
+
+
+.pack1{
+    position: absolute;
+    top: 323px;
+    left: 40px;
+    color: cadetblue;
+}
