@@ -1,9 +1,39 @@
 import React from 'react'
+import './avian.css'
 
 const Avian= () => {
   return (
     <div>
-            avian
+        <div className='side-card1'>
+            <h1>humanoid pack</h1>
+            <br/>
+            <h2>Pack includes</h2>
+            <br/><br/>
+            <h3><li>Body movements</li></h3>
+            <br/><br/>
+            <h3><li>Speech</li></h3>
+            <br/><br/>
+            <h3><li>Vision</li></h3>
+            <br/><br/>
+            <h3><li>Emotion</li></h3>
+            <br/><br/>
+            <h3><li>Self destruct -- Default</li></h3>
+        </div>
+
+        <div className='midcard1'>
+          <h2>Get pack</h2>
+          <div className='imgcard1'>
+            <h2>Get Pack</h2>
+            <br/><br/><br/>
+            <h3>Buy package</h3>
+            <br/><br/>
+            <h3>P.S packages bought are stored as NFT's on moralis<br/>
+              incase anything happens to your device
+            </h3>
+          </div>
+        </div>
+
+        
     </div>
   )
 }

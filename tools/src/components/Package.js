@@ -53,7 +53,11 @@ const Package = () => {
             <Link className='direct2' to='/aviation-pack'>see</Link>
             <h3 className='pack1'>pack</h3>
             </span>
-          <span className='motors'> <Card title="Motor related" header={motor}/></span>
+          <span className='motors'> 
+          <Card title="Motor related" header={motor}/>
+          <Link className='direct2' to='/motor-pack'>see</Link>
+            <h3 className='pack1'>pack</h3>
+          </span>
           
           
         </div>
@@ -71,7 +75,6 @@ function Card(props){
       <br/><br/>
 
     </div>
-   
 
   )
 }

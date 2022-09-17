@@ -7,7 +7,8 @@ import About from './components/About'
 import ErrorPage from './components/ErrorPage'
 import Package from './components/Package'
 import Droid from "./components/pack/droid";
-import Avian from './components/pack/Avian'
+import Avian from './components/pack/Avian';
+import Motor from './components/pack/Motor'
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
         <Route path="/packages" element={<Package/>}/>
         <Route path="/humanoid-pack" element={<Droid />}/>
         <Route path='/aviation-pack' element={<Avian/>}/>
+        <Route path="/motor-pack" element={<Motor/>}/>
         <Route path="/profile/:username" element={<Profile />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>

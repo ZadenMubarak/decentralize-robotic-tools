@@ -2,27 +2,27 @@
     background: rgb(255, 255, 255);
 } */
 
-.side-card{
+.side-card1{
     background-color: rgb(150, 140, 126);
     width: 400px;
     min-height: 576px;
 }
 
-.side-card h1{
+.side-card1 h1{
     color: aquamarine;
 }
 
-.midcard{
+.midcard1{
     position: absolute;
     top: 70px;
     left: 400px;
     width: 960px;
     min-height: 87%;
     background: whitesmoke;
-    background-image: url(./humanoid.webp);
+    background: url(./avian.jpg);
 }
 
-.midcard .imgcard{
+.midcard1 .imgcard1{
     position: absolute;
     top: 0px;
     left: 0px;
@@ -32,6 +32,6 @@
     height: 100%;
 }
 
-.midcard .imgcard h2{
+.midcard1 .imgcard1 h2{
     color: rgb(190, 190, 190);
 }
