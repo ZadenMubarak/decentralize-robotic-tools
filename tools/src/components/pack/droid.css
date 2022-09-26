@@ -7,7 +7,7 @@
 
 .side-card{
     background-image: linear-gradient(rgb(3, 31, 85), rgb(3, 10, 114), rgb(42, 8, 117));
-    width: 400px;
+    width: 300px;
     min-height: 576px;
     /* border-radius: 35px; */
 }
@@ -17,7 +17,7 @@
 }
 
 .side-card h3{
-    color: rgb(13, 80, 58);
+    color: rgb(140, 196, 177);
 }
 
 .incl{
@@ -27,8 +27,8 @@
 .midcard{
     position: absolute;
     top: 70px;
-    left: 400px;
-    width: 960px;
+    left: 300px;
+    width: 1060px;
     min-height: 87%;
     background: whitesmoke;
     border-radius: 20px;
@@ -46,5 +46,5 @@
 }
 
 .midcard .imgcard h2{
-    color: rgb(190, 190, 190);
+    color: rgb(138, 137, 137);
 }
