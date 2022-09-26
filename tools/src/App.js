@@ -1,6 +1,7 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
-import React from "react";
+
+import { useReducer } from "react";
 import Home from './components/Home'
 import Profile from './components/Profile'
 import About from './components/About'

@@ -1,23 +1,29 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './droid.css'
 
 
 
 const Droid = () => {
+  
+  // const [div_format, current_look] = useState(null)
+  // console.log(current_look)
   return (
+
     <div>
         <div className='side-card'>
+          <br/><br/>
+
             <h1>humanoid pack</h1>
             <br/>
-            <h2>Pack includes</h2>
+            <h2 className='incl'>Pack includes</h2>
             <br/><br/>
             <h3><li>Body movements</li></h3>
             <br/><br/>
-            <h3><li>Speech</li></h3>
+            <h3><li>Speech 💬</li></h3>
             <br/><br/>
-            <h3><li>Vision</li></h3>
+            <h3><li>Vision 👀</li></h3>
             <br/><br/>
-            <h3><li>Emotion</li></h3>
+            <h3><li>Emotion ❤️ 😃</li></h3>
             <br/><br/>
             <h3><li>Self destruct -- Default</li></h3>
         </div>
