@@ -1,39 +1,128 @@
-body{
-    background: url(../download.jpg);
-}
+/* body{
+    background: rgb(255, 255, 255);
+} */
+
+
+
 
 .side-card1{
-    position: absolute;
-    top: 800px;
-    background-color: rgb(150, 140, 126);
-    width: 400px;
+    background-image: linear-gradient(rgb(3, 31, 85), rgb(3, 10, 114), rgb(42, 8, 117));
+    width: 300px;
     min-height: 576px;
+    /* border-radius: 35px; */
 }
 
 .side-card1 h1{
     color: aquamarine;
 }
 
+.side-card1 h3{
+    color: rgb(140, 196, 177);
+}
+
+.incl{
+    color: rgb(9, 15, 48);
+}
+
 .midcard1{
     position: absolute;
     top: 70px;
-    /* left: 400px; */
-    width: 100%;
+    left: 300px;
+    min-width: 1060px;
     min-height: 87%;
     background: whitesmoke;
-    background: url(./avian1.jpg);
+    border-radius: 20px;
+    background-image: linear-gradient(rgb(209, 210, 214), rgb(227, 228, 240), rgb(236, 232, 247), #f3fbfc);
 }
 
-/* .midcard1 .imgcard1{
+.midcard1 .imgcard{
     position: absolute;
     top: 0px;
     left: 0px;
-    background: rgb(194, 195, 197);
-    
+    background-image: linear-gradient(rgb(209, 210, 214), rgb(227, 228, 240), rgb(236, 232, 247), #f3fbfc);
+    /* background-image: url(./humanoid.webp); */
     width: 300px;
     height: 100%;
-} */
+}
+
+.midcard1 .imgcard h2{
+    color: rgb(138, 137, 137);
+}
+
+
+.midcard1 .imgcard1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: linear-gradient(rgb(209, 210, 214), rgb(227, 228, 240), rgb(236, 232, 247), #f3fbfc);
+    /* background-image: url(./humanoid.webp); */
+    width: 300px;
+    height: 100%;
+}
 
 .midcard1 .imgcard1 h2{
-    color: rgb(190, 190, 190);
+    color: rgb(138, 137, 137);
+    
+}
+
+
+/* CSS */
+.button-19 {
+  appearance: button;
+  background-color: #1899D6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.button-19:after {
+  background-clip: padding-box;
+  background-color: #1CB0F6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-19:main,
+.button-19:focus {
+  user-select: auto;
+}
+
+.button-19:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.button-19:disabled {
+  cursor: auto;
 }
